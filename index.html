@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodSta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container header-box">
+        <a href="./index.html">
+          <svg class="logo">
+                <use href="./img/sprite.svg#icon-logo" alt="logo" id="home"></use>
+          </svg>
+        </a>
+       <div class="nav-menu">
+          <nav>
+            <ul class="nav list">
+              <li><a class="link nav-link" href="#home">Home</a></li>
+              <li><a class="link nav-link" href="#about">About</a></li>
+              <li><a class="link nav-link" href="#service">Service</a></li>
+              <li><a class="link nav-link" href="#menu">Menu</a></li>
+              <li><a class="link nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="btn" type="button">Order Now</button>
+       </div>
+      </div >
+    </header>
+    <main>
+      <!-- hero -->
+      <section>
+        <div class="container hero">
+          <div class="item">
+            <h1 class="title" id="about">
+              Enjoy Your Favorite Food From Anywhere
+            </h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+              ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+            </p>
+            <button class="btn" type="button">Order Now</button>
+          </div >
+          <div class="food-slider autoplay">
+            <img src="./img/food.jpg" alt="food" width="528" height="528" />
+            <img src="./img/salad.jpg" alt="salad" width="528" height="528" />
+            <img src="./img/egg.jpg" alt="egg" width="528" height="528" />
+        </div>
+        </div>
+      </section>
+      <!-- special -->
+      <section>
+        <div class="container special-section">
+          <div class="special">
+              <div class="apple-elipse-desk">
+              <img src="./img/apple-elipse.webp" alt="green apple" width="550" height="607" />
+              </div>           
+              <div class="special-box">
+              <h2 class="title" id="service">What’s Special About Our Offerings</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+                ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+              </p>
+              <ul class="list offer-list">
+                <li class="item">
+                  <div class="offer-icon">
+                    <svg width="32" height="32">
+                      <use href="./img/sprite.svg#icon-rocket" alt="rocket"></use> 
+                    </svg>
+                  </div>
+                  <h3 class="offer-title">Fastest Delivery</h3>
+                  <p class="offer-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                </li>
+                <li class="item">
+                  <div class="offer-icon">
+                    <svg width="32" height="32">
+                      <use href="./img/sprite.svg#icon-touch" alt="touch"></use> 
+                    </svg>
+                  </div>
+                  <h3 class="offer-title">Easy To Order</h3>
+                  <p class="offer-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros.
+                  </p>
+                </li>
+              </ul>
+              <button class="btn btn-white" type="button">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- favorites -->
+      <section class="container">
+        <h2 class="fav-title" id="menu">Some of Our Favorites</h2>
+        <p class="fav-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="list fav-list">
+          <li>
+            <img
+              src="./img/gamburger.jpg"
+              alt="gamburger"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img src="./img/pasta.jpg" alt="pasta" width="315" height="315" />
+          </li>
+          <li>
+            <img src="./img/pizza.jpg" alt="pizza" width="315" height="315" />
+          </li>
+          <li>
+            <img
+              src="./img/chicken.jpg"
+              alt="chicken"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img src="./img/salat.jpg" alt="salat" width="315" height="315" />
+          </li>
+          <li>
+            <img
+              src="./img/borshch.jpg"
+              alt="borshch"
+              width="315"
+              height="315"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- Cust say -->
+      <section>
+       <div class="container cust-section">
+          <h2 class="cust-title">What our Customers Say</h2>
+          <p class="cust-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
+            <ul class="list cust-list">
+              <li class="cust-item">
+                <svg class="stars-ico" width="101" height="16">
+                  <use href="./img/sprite.svg#icon-stars" alt="stars"></use> 
+                </svg>          
+                <p class="cust-say">
+              “The Best app I have used to order food in a while, so many options
+              to choose from too, I would recommend to a freind, No questions
+              asked”
+            </p>
+            <div class="cust-info">
+              <img class="img"
+                src="./img/customer_1.jpg"
+                alt="customer_1"
+                width="48"
+                height="48"
+              />
+              <div>
+                <p class="cust-name">Sumith Shah</p>
+                <p class="cust-descr">Some Dude</p>
+              </div>
+            </div>
+          </li>
+              <li class="cust-item">
+                <svg class="stars-ico" width="101" height="16">
+                  <use href="./img/sprite.svg#icon-stars" alt="stars"></use> 
+                </svg>
+            <p class="cust-say">
+              “The ease with which I can just go in and order what i want was
+              amazing, It has been a very pleasant experience ordering from this
+              app”
+            </p>
+            <div class="cust-info">
+              <img class="img"
+                src="./img/customer_2.jpg"
+                alt="customer_2"
+                width="48"
+                height="48"
+              />
+              <div>
+                <p class="cust-name">Sumith Shah</p>
+                <p class="cust-descr">Some Dude</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+       </div>
+      </section>
+     <!-- Subscribe -->
+      <section class="subscribe">
+        <div class="subs-box container">
+          <div>
+            <h2 class="subs-title">Subscribe To Get Special Offers</h2>
+            <p class="subs-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              varius enim in eros elementum tristique.
+            </p>
+          
+            <input class="subs-form"  type="email" name="email" placeholder="Enter your email" />
+            <button class="btn" type="button">Subscribe</button>
+          </div>
+        <div class="banana">
+        <img src="./img/banan.webp" alt="banan" width="608" height="266" />
+        </div>
+      </section>
+    </main>
+  
+    <!-- footer -->
+    <footer class="container footer">
+      <div class="footer-box-pic">
+        <div class="footer-nav">
+          <a href="./index.html">
+            <svg class="logo">
+                  <use href="./img/sprite.svg#icon-logo" alt="logo" id="home"></use>
+            </svg>
+          </a>
+         <div class="footer-menu">
+            <nav>
+              <ul class="list footer-list">
+                <li><a class="link nav-link" href="#home">Home</a></li>
+                <li><a class="link nav-link" href="#about">About</a></li>
+                <li><a class="link nav-link" href="#service">Service</a></li>
+                <li><a class="link nav-link" href="#menu">Menu</a></li>
+                <li><a class="link nav-link" href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+         </div>
+        
+        <div>
+          <p><label for="user_email" class="subs-footer-title">Subscribe</label></p>
+          <input class="subs-form subs-footer"  type="email" name="email" placeholder="Enter your email" />
+              <button class="btn btn-footer" type="button">Subscribe</button>
+          <p class="subs-footer-text">
+            By subscribing you agree to with our
+            <a href="./privacy.html"
+              ><span class="footer-links">Privacy Policy</span></a
+            >
+          </p>
+        </div>
+      </div>
+  
+        <div class="footer-end">
+          <ul class="list footer-menu-links">
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="./terms.html">Terms of Service</a></li>
+            <li><a href="./cookies.html">Cookies Settings</a></li>
+          </ul>
+          <p class="subs-footer-text">2022 FoodSta. All right reserved.</p>
+        </div>
+      </div>
+      <!-- footer pics have to be here -->
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>
