@@ -21,17 +21,24 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <link href="./css/tablet.css" rel="stylesheet" />
+    <link href="./css/desctop.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header -->
     <header>
       <div class="container header-box">
-        <a href="./index.html">
-          <svg class="logo">
-                <use href="./img/sprite.svg#icon-logo" alt="logo" id="home"></use>
-          </svg>
-        </a>
-       <div class="nav-menu">
+          <a class="link" href="./index.html">
+            <svg class="logo">
+              <use href="./img/sprite.svg#icon-logo" alt="logo" id="home" width="66" height="52"></use>
+            </svg>
+          </a>
+         <svg class="burger">
+          <use href="./img/sprite.svg#icon-green_menu" width="28" height="28"></use>
+         </svg>
+       
+        <div class="nav-menu">
           <nav>
             <ul class="nav list">
               <li><a class="link nav-link" href="#home">Home</a></li>
@@ -59,8 +66,8 @@
               ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
             </p>
             <button class="btn" type="button">Order Now</button>
-          </div >
-          <div class="food-slider autoplay">
+          </div>
+          <div class="food-slider autoplay mob-hidden">
             <img src="./img/food.jpg" alt="food" width="528" height="528" />
             <img src="./img/salad.jpg" alt="salad" width="528" height="528" />
             <img src="./img/egg.jpg" alt="egg" width="528" height="528" />
@@ -71,10 +78,10 @@
       <section>
         <div class="container special-section">
           <div class="special">
-              <div class="apple-elipse-desk">
-              <img src="./img/apple-elipse.webp" alt="green apple" width="550" height="607" />
+              <div class="apple">
+              <img src="./img/apple-mob.webp" alt="green apple" width="280" height="309" />
               </div>           
-              <div class="special-box">
+              <div>
               <h2 class="title" id="service">What’s Special About Our Offerings</h2>
               <p class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -113,7 +120,7 @@
         </div>
       </section>
       <!-- favorites -->
-      <section class="container">
+      <!-- <section class="container">
         <h2 class="fav-title" id="menu">Some of Our Favorites</h2>
         <p class="fav-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="list fav-list">
@@ -151,9 +158,9 @@
             />
           </li>
         </ul>
-      </section>
+      </section> -->
       <!-- Cust say -->
-      <section>
+      <!-- <section>
        <div class="container cust-section">
           <h2 class="cust-title">What our Customers Say</h2>
           <p class="cust-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -205,9 +212,9 @@
           </li>
         </ul>
        </div>
-      </section>
+      </section> -->
      <!-- Subscribe -->
-      <section class="subscribe">
+      <!-- <section class="subscribe">
         <div class="subs-box container">
           <div>
             <h2 class="subs-title">Subscribe To Get Special Offers</h2>
@@ -223,10 +230,10 @@
         <img src="./img/banan.webp" alt="banan" width="608" height="266" />
         </div>
       </section>
-    </main>
+    </main> -->
   
     <!-- footer -->
-    <footer class="container footer">
+    <!-- <footer class="container footer">
       <div class="footer-box-pic">
         <div class="footer-nav">
           <a href="./index.html">
@@ -268,11 +275,12 @@
           <p class="subs-footer-text">2022 FoodSta. All right reserved.</p>
         </div>
       </div>
-      <!-- footer pics have to be here -->
-    </footer>
+    </footer> -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
