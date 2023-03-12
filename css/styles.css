@@ -211,6 +211,7 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 60px;
 }
 .fav-mob-list > li {
   display: flex;
@@ -241,31 +242,25 @@ p {
 } */
 /* Cust say */
 .cust-section {
-  background: url(../img/customers-say-bg.jpg);
+  height: 769px;
+  background: url(../img/cust-bg-mob.jpg);
   background-color: var(--yellow-main);
-  margin-top: 73px;
+  padding-top: 60px;
 }
-.cust-title {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
-  padding-top: 100px;
-  margin-bottom: 20px;
-}
+
 .cust-text {
-  line-height: 1.19;
+  margin-top: 20px;
+  margin-bottom: 32px;
 }
 .cust-list {
   display: flex;
-  gap: 139px;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .cust-item {
-  width: 501px;
   background: var(--main-white);
-  margin-top: 32px;
-  margin-bottom: 193px;
-  padding: 14px;
+  padding: 8px;
   border-radius: 0px 30px 30px 30px;
 }
 .stars-ico {
@@ -273,8 +268,8 @@ p {
 }
 .cust-say {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .cust-name {
   font-weight: 500;
@@ -297,28 +292,25 @@ p {
 }
 
 .subs-title {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.2;
-  color: var(--main-color);
+  margin-top: 17px;
 }
 
 .subs-box {
   display: flex;
-  align-items: center;
+  flex-direction: column-reverse;
+  /* align-items: center; */
   position: relative;
-  top: -61px;
+  top: -43px;
 }
 .subs-text {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .subs-form {
-  margin-top: 24px;
-  margin-right: 32px;
   font-size: 12px;
   color: var(--form-text);
-  width: 395px;
+  width: 278px;
   height: 42px;
   left: -1px;
   top: 0px;
@@ -329,7 +321,10 @@ p {
 .subs-form::placeholder {
   padding-left: 11px;
 }
-
+.subs-btn {
+  margin-top: 20px;
+  margin-left: 177px;
+}
 /* footer */
 .footer {
   margin-top: 3px;
@@ -365,9 +360,9 @@ p {
   font-size: 12px;
   line-height: 1.17px;
 }
-.subs-form {
+/* .subs-form {
   margin: 12px 13px 18px 0;
-}
+} */
 .footer-links,
 .footer-menu-links > li > a {
   color: var(--green-border);
