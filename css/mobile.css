@@ -1,6 +1,8 @@
 @media screen and (max-width: 767px) {
   .nav-menu,
-  .fav-list {
+  .fav-list,
+  .apple-tab,
+  .apple-desk {
     display: none;
   }
 }

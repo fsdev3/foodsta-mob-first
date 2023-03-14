@@ -1,10 +1,72 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
-}
-@media screen and (max-width: 767px) {
-  .mob-hidden {
+  .mob-menu {
     display: none;
+  }
+  .header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn {
+    padding: 6px 18px;
+  }
+  .title {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero-tab {
+    display: flex;
+  }
+  .hero .text {
+    display: block;
+    margin-top: 44px;
+    margin-bottom: 40px;
+    width: 336px;
+  }
+  .hero .title {
+    width: 500px;
+  }
+  .hero .items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .food-slider {
+    position: relative;
+    top: -10px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 14px solid var(--yellow-main);
+    background: var(--main-white);
+    overflow: hidden;
+  }
+  .special-section {
+    /* position: relative;
+    top: -134px; */
+    height: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1050px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../img/hero-bg-tab.png);
+  }
+  .apple-tab {
+    padding-top: 0px;
   }
 }

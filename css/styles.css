@@ -47,7 +47,7 @@ p {
 } */
 .container {
   margin: 0 auto;
-  width: 320px;
+  max-width: 320px;
   height: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -68,12 +68,8 @@ p {
   width: 28px;
   height: 28px;
 }
-/* .hero {
-  display: flex;
-  justify-content: space-between;
-  background: var(--main-white);
-} */
-.hero .item {
+
+.hero {
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -105,27 +101,16 @@ p {
 .btn:focus {
   background: var(--yellow-main);
 }
-/* .nav {
+.nav {
   display: flex;
   justify-content: flex-end;
   gap: 28px;
 }
-
 .nav-menu {
   display: flex;
   align-items: center;
   gap: 28px;
-} */
-/* .food-slider {
-  top: auto;
-  width: 580px;
-  height: 580px;
-  border-radius: 50%;
-  border: 26px solid var(--yellow-main);
-  background: var(--main-white);
-  overflow: hidden;
-} */
-
+}
 .nav-link {
   font-size: 14px;
   line-height: 1.14;
@@ -137,6 +122,16 @@ p {
   text-decoration: underline;
 }
 
+/* .food-slider {
+  top: auto;
+  width: 580px;
+  height: 580px;
+  border-radius: 50%;
+  border: 26px solid var(--yellow-main);
+  background: var(--main-white);
+  overflow: hidden;
+} */
+
 /* special */
 .special-section {
   /* position: relative;
@@ -146,6 +141,8 @@ p {
   margin-left: auto;
   margin-right: auto; */
   height: 1050px;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background: url(../img/hero-bg-mob.jpg);
 }
@@ -156,7 +153,7 @@ p {
   gap: 90px;
   align-items: flex-end; */
 }
-.apple {
+.apple-mob {
   margin-bottom: 60px;
   padding-top: 41px;
 }
@@ -301,7 +298,6 @@ p {
 .subs-box {
   display: flex;
   flex-direction: column-reverse;
-  /* align-items: center; */
   position: relative;
   top: -43px;
 }
@@ -329,7 +325,8 @@ p {
   margin-left: 177px;
 }
 /* footer */
-.footer-logo {
+.footer-logo,
+.logo {
   width: 66px;
   height: 52px;
 }
@@ -404,3 +401,16 @@ p {
   margin-top: 80px;
   padding-bottom: 100px; */
 }
+@media screen and (max-width: 1279px) {
+  .mob-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px), (min-width: 1279px) {
+  .mob-desk-hidden {
+    display: none;
+  }
+}
+/* .apple-mob,
+  .apple-tab, */

@@ -23,7 +23,7 @@
     <link href="./css/styles.css" rel="stylesheet" />
     <link href="./css/mobile.css" rel="stylesheet" />
     <link href="./css/tablet.css" rel="stylesheet" />
-    <link href="./css/desctop.css" rel="stylesheet" />
+    <link href="./css/desktop.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header -->
@@ -34,9 +34,11 @@
               <use href="./img/sprite.svg#icon-logo" alt="logo" id="home" width="66" height="52"></use>
             </svg>
           </a>
-         <svg class="burger">
-          <use href="./img/sprite.svg#icon-green_menu" width="28" height="28"></use>
-         </svg>
+         <div class="mob-menu">
+           <svg class="burger">
+            <use href="./img/sprite.svg#icon-green_menu" width="28" height="28"></use>
+           </svg>
+         </div>
        
         <div class="nav-menu">
           <nav>
@@ -56,31 +58,66 @@
       <!-- hero -->
       <section>
         <div class="container hero">
-          <div class="item">
+          
             <h1 class="title" id="about">
               Enjoy Your Favorite Food From Anywhere
             </h1>
-            <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-              ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-            </p>
-            <button class="btn" type="button">Order Now</button>
+            <div class="items">
+              <div class="hero-box">
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                  varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+                  ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                </p>
+                <button class="btn" type="button">Order Now</button>
+              </div>
+            
+            <div class="food-slider autoplay mob-hidden">
+              <img src="./img/food.jpg" alt="food" width="528" height="528" />
+              <img src="./img/salad.jpg" alt="salad" width="528" height="528" />
+              <img src="./img/egg.jpg" alt="egg" width="528" height="528" />
           </div>
-          <div class="food-slider autoplay mob-hidden">
-            <img src="./img/food.jpg" alt="food" width="528" height="528" />
-            <img src="./img/salad.jpg" alt="salad" width="528" height="528" />
-            <img src="./img/egg.jpg" alt="egg" width="528" height="528" />
-        </div>
+          <div class="food-slider autoplay mob-desk-hidden">
+              <img src="./img/food.jpg" alt="food" width="292" height="292" />
+              <img src="./img/salad.jpg" alt="salad" width="292" height="292" />
+              <img src="./img/egg.jpg" alt="egg" width="292" height="292" />
+          </div>
+            </div>
+        
         </div>
       </section>
       <!-- special -->
       <section>
         <div class="container special-section">
           <div class="special">
-              <div class="apple">
-              <img src="./img/apple-mob.webp" alt="green apple" width="280" height="309" />
-              </div>           
+              <div class="apple-mob">
+                <img src="./img/apple-mob.webp" alt="green apple" width="280" height="309" 
+              srcset="./img/apple-mob.webp 1x, ./img/apple-mob-2x.webp 2x"/>
+              </div> <div class="apple-tab">
+                <img src="./img/apple-tab.webp" alt="green apple" width="280" height="309" 
+              srcset="./img/apple-tab.webp 1x, ./img/apple-tab-2x.webp 2x"/>
+              </div> <div class="apple-desk">
+                <img src="./img/apple-desk.webp" alt="green apple" width="280" height="309" 
+              srcset="./img/apple-desk.webp 1x, ./img/apple-mob-2x.desk 2x"/>
+              </div> 
+                <!-- <picture>
+                    <source
+                      srcset="./img/apple.jpg 1x, 
+                      ./img/apple-elipse.webp 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/apples-tab.webp 1x, 
+                      ./img/apples-tab-2x.webp 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/apple-mob.webp 1x, 
+                      ./img/apple-mob-2x.webp 2x" alt="green apple" width="280" height="309"
+                      media="(max-width: 767px)"
+                    />
+                  </picture> -->
+                        
               <div>
               <h2 class="title" id="service">What’s Special About Our Offerings</h2>
               <p class="text">
@@ -125,13 +162,16 @@
         <p class="fav-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="list fav-mob-list">
           <li>
-          <img src="./img/hamburger-mob.jpg" alt="hamburger" width="224" height="224">
+          <img src="./img/hamburger-mob.jpg" alt="hamburger" width="224" height="224"
+          srcset="./img/hamburger-mob.jpg 1x, ./img/hamburger-mob-2x.jpg 2x">
         </li>
         <li>
-          <img src="./img/pasta-mob.jpg" alt="pasta" width="224" height="224">
+          <img src="./img/pasta-mob.jpg" alt="pasta" width="224" height="224"
+          srcset="./img/pasta-mob.jpg 1x, ./img/pasta-mob-2x.jpg 2x">
         </li>
         <li>
-          <img src="./img/pizza-mob.jpg" alt="pizza" width="224" height="224">
+          <img src="./img/pizza-mob.jpg" alt="pizza" width="224" height="224"
+          srcset="./img/pizza-mob.jpg 1x, ./img/pizza-mob-2x.jpg 2x">
         </li>
       </ul>
         
@@ -139,8 +179,8 @@
         <ul class="list fav-list">
           <li>
             <img
-              src="./img/gamburger.jpg"
-              alt="gamburger"
+              src="./img/hamburger.jpg"
+              alt="hamburger"
               width="315"
               height="315"
             />
