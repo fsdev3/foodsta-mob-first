@@ -15,4 +15,19 @@
     background: var(--main-white);
     overflow: hidden;
   }
+  .fav-list > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 395px;
+    height: 397px;
+    overflow: hidden;
+    border: 16px solid var(--yellow-main);
+    border-radius: 197.5px;
+    margin-bottom: 32px;
+  }
+  .fav-list > li > img {
+    width: 315px;
+    height: 315px;
+  }
 }

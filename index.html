@@ -98,7 +98,7 @@
               srcset="./img/apple-tab.webp 1x, ./img/apple-tab-2x.webp 2x"/>
               </div> <div class="apple-desk">
                 <img src="./img/apple-desk.webp" alt="green apple" width="550" height="607" 
-              srcset="./img/apple-desk.webp 1x, ./img/apple-mob-2x.desk 2x"/>
+              srcset="./img/apple-desk.webp 1x, ./img/apple-desk-2x.webp 2x"/>
               </div> 
                 <!-- <picture>
                     <source
@@ -160,6 +160,7 @@
       <section class="container">
         <h2 class="fav-title title" id="menu">Some of Our Favorites</h2>
         <p class="fav-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <!-- mob favorites -->
         <ul class="list fav-mob-list">
           <li>
           <img src="./img/hamburger-mob.jpg" alt="hamburger" width="224" height="224"
@@ -175,15 +176,26 @@
         </li>
       </ul>
         
-        
+        <!-- tab and desk favorites -->
         <ul class="list fav-list">
           <li>
-            <img
+            <picture>
+                    <source
+                      srcset="./img/hamburger.jpg 1x, 
+                      ../img/hamburger-2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/hamburger-tab.jpg 1x, 
+                      ./img/hamburger-tab-2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+              <img
               src="./img/hamburger.jpg"
               alt="hamburger"
-              width="315"
-              height="315"
+             
             />
+                  </picture>
           </li>
           <li>
             <img src="./img/pasta.jpg" alt="pasta" width="315" height="315" />
@@ -279,9 +291,15 @@
             <input class="subs-form"  type="email" name="email" placeholder="Enter your email" />
             <button class="btn subs-btn" type="button">Subscribe</button>
           </div>
-        <div class="banana">
+        <div class="banana-mob">
         <img src="./img/banana-mob.webp" alt="banana" width="280" height="78" />
         </div>
+        <div class="banana-tab">
+        <img src="./img/banana-tab.webp" alt="banana" width="281" height="136" />
+        </div>
+        <!-- <div class="banana-desk">
+        <img src="./img/banana-desk.webp" alt="banana" width="280" height="78" />
+        </div> -->
       </section>
     </main>
   

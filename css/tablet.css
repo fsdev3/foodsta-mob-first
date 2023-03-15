@@ -5,7 +5,10 @@
     padding-right: 32px;
   }
   .mob-menu,
-  .apple-mob {
+  .apple-mob,
+  .banana-mob,
+  .banana-desk,
+  .fav-mob-list {
     display: none;
   }
   .header-box {
@@ -60,10 +63,8 @@
     top: -120px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 150px;
     height: 1140px;
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     background: url(../img/hero-bg-tab.png);
   }
@@ -88,7 +89,67 @@
   .offer-text {
     margin-bottom: 0;
   }
+  .fav-title {
+    margin-top: -20px;
+  }
+  .fav-text {
+    margin-bottom: 60px;
+  }
+  .fav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 100px;
+  }
+  .fav-list > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 336px;
+    height: 338px;
+    overflow: hidden;
+    border: 14px solid var(--yellow-main);
+    border-radius: 167.59px;
+  }
+  .fav-list > li > img {
+    width: 268px;
+    height: 268px;
+  }
+
+  .cust-section {
+    height: 554px;
+    background: url(../img/cust-bg-tab.png);
+    padding-top: 60px;
+  }
+  .cust-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .cust-item {
+    width: 336px;
+    padding: 12px;
+  }
+  .banana-tab {
+    position: relative;
+    top: -30px;
+    margin-left: auto;
+  }
+  .subs-title {
+    margin-top: -10px;
+  }
+  .subs-text {
+    margin-bottom: 24px;
+  }
+  .subs-form {
+    width: 394px;
+  }
+  .subs-btn {
+    margin-left: 22px;
+  }
 }
+
 @media screen and (max-width: 1279px) {
   .desk-slider,
   .apple-desk {
