@@ -2,7 +2,9 @@
   .nav-menu,
   .fav-list,
   .apple-tab,
-  .apple-desk {
+  .apple-desk,
+  .desk-slider,
+  .tab-slider {
     display: none;
   }
 }

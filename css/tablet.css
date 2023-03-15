@@ -4,7 +4,8 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .mob-menu {
+  .mob-menu,
+  .apple-mob {
     display: none;
   }
   .header-box {
@@ -55,18 +56,42 @@
     overflow: hidden;
   }
   .special-section {
-    /* position: relative;
-    top: -134px; */
-    height: 1140px;
+    position: relative;
+    top: -120px;
     margin-left: auto;
     margin-right: auto;
-    height: 1050px;
+    padding-bottom: 150px;
+    height: 1140px;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background: url(../img/hero-bg-tab.png);
   }
   .apple-tab {
-    padding-top: 0px;
+    padding-top: 150px;
+  }
+  .special .title,
+  .special .text {
+    margin-right: 178px;
+  }
+  .special .title {
+    margin-top: 60px;
+  }
+  .offer-list {
+    display: flex;
+    gap: 116px;
+    margin-bottom: 40px;
+  }
+  .offer-list .item {
+    width: 253px;
+  }
+  .offer-text {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .desk-slider,
+  .apple-desk {
+    display: none;
   }
 }

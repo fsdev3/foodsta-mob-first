@@ -2,4 +2,17 @@
   .container {
     max-width: 1258px;
   }
+  .tab-slider,
+  .apple-tab {
+    display: none;
+  }
+  .food-slider {
+    top: auto;
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    border: 26px solid var(--yellow-main);
+    background: var(--main-white);
+    overflow: hidden;
+  }
 }
