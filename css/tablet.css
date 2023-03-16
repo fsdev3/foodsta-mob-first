@@ -148,6 +148,26 @@
   .subs-btn {
     margin-left: 22px;
   }
+
+  .footer {
+    height: 619px;
+    background-repeat: no-repeat;
+    /* background-position: bottom right; */
+    background-image: url(../img/footer-bg-tab.jpg);
+  }
+
+  .footer-nav {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-left: 114px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 1279px) {
