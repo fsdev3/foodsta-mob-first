@@ -1,13 +1,19 @@
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1258px;
+    max-width: 1280px;
+    padding: 0 16px;
   }
   .tab-slider,
   .apple-tab {
     display: none;
   }
+  .nav-menu {
+    position: relative;
+  }
   .food-slider {
-    top: auto;
+    position: absolute;
+    top: 90px;
+    right: 114px;
     width: 580px;
     height: 580px;
     border-radius: 50%;
@@ -29,5 +35,98 @@
   .fav-list > li > img {
     width: 315px;
     height: 315px;
+  }
+  .title {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .hero .text {
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .hero .title {
+    margin-top: 159px;
+  }
+  .hero {
+    padding-top: 0;
+  }
+  .special-section {
+    position: relative;
+    top: -45px;
+    width: 100%;
+    height: 824px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../img/hero-bg-desk.png);
+  }
+  .special {
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+    align-items: flex-end;
+  }
+  .apple-desk {
+    width: 550px;
+    margin-top: 160px;
+  }
+  .special .title,
+  .special .text {
+    margin-top: 0;
+    margin-right: 0;
+    width: 527px;
+  }
+  .offer-list {
+    display: flex;
+    gap: 67px;
+    /* margin-bottom: 32px; */
+  }
+  .btn-white {
+    margin-bottom: 70px;
+  }
+  .fav-list {
+    gap: 31px;
+    padding-bottom: 105px;
+  }
+  .fav-list > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 395px;
+    height: 397px;
+    overflow: hidden;
+    border: 16px solid var(--yellow-main);
+    border-radius: 197.5px;
+    margin-bottom: 0;
+  }
+  .fav-list > li > img {
+    width: 315px;
+    height: 315px;
+  }
+  .fav-title {
+    margin-top: 60px;
+  }
+  .fav-text {
+    margin-bottom: 40px;
+  }
+  .cust-section {
+    width: 1280px;
+    height: 647px;
+    background: url(../img/customers-say-bg.jpg);
+    padding-top: 100px;
+  }
+  .cust-title {
+    font-size: 42px;
+    line-height: 1.17;
+  }
+  .cust-item {
+    width: 501px;
+    padding: 14px;
+  }
+  .cust-list {
+    gap: 139px;
   }
 }

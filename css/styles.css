@@ -122,24 +122,8 @@ img {
   text-decoration: underline;
 }
 
-/* .food-slider {
-  top: auto;
-  width: 580px;
-  height: 580px;
-  border-radius: 50%;
-  border: 26px solid var(--yellow-main);
-  background: var(--main-white);
-  overflow: hidden;
-} */
-
 /* special */
 .special-section {
-  /* position: relative;
-  top: -134px;
-  width: 320px;
-  height: 824px;
-  margin-left: auto;
-  margin-right: auto; */
   height: 1050px;
   background-size: cover;
   background-position: center;
@@ -147,25 +131,11 @@ img {
   background: url(../img/hero-bg-mob.jpg);
 }
 
-.special {
-  /* display: flex;
-  justify-content: flex-start;
-  gap: 90px;
-  align-items: flex-end; */
-}
 .apple-mob {
   margin-bottom: 60px;
   padding-top: 41px;
 }
 
-/* .offer-list {
-  display: flex;
-  gap: 67px;
-  margin-bottom: 32px;
-} */
-/* .offer-list .item {
-  width: 253px;
-} */
 .offer-icon {
   width: 48px;
   height: 48px;
@@ -219,32 +189,15 @@ img {
   justify-content: center;
   width: 280px;
   height: 282px;
-  border: 11px solid #ffe550;
+  border: 11px solid var(--yellow-main);
   border-radius: 139.658px;
   overflow: hidden;
 }
-/* .fav-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 32px;
-}
-.fav-list > li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 395px;
-  height: 397px;
-  overflow: hidden;
-  border: 16px solid var(--yellow-main);
-  border-radius: 197.5px;
-  margin-bottom: 32px;
-} */
+
 /* Cust say */
 .cust-section {
   height: 769px;
   background: url(../img/cust-bg-mob.jpg);
-  background-color: var(--yellow-main);
   padding-top: 60px;
 }
 
