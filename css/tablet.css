@@ -123,7 +123,6 @@
     padding-top: 60px;
   }
   .cust-list {
-    /* display: flex; */
     flex-direction: row;
     gap: 32px;
   }

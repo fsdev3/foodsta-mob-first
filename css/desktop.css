@@ -4,9 +4,11 @@
     padding: 0 16px;
   }
   .tab-slider,
-  .apple-tab {
+  .apple-tab,
+  .banana-tab {
     display: none;
   }
+
   .nav-menu {
     position: relative;
   }
@@ -128,5 +130,24 @@
   }
   .cust-list {
     gap: 139px;
+  }
+  .banana-desk {
+    display: initial;
+  }
+  .subs-box {
+    flex-direction: row;
+    top: -52px;
+  }
+  .subs-title {
+    margin-top: 24px;
+    font-size: 42px;
+    line-height: 1.2;
+  }
+
+  .footer {
+    width: 1280px;
+    background-repeat: no-repeat;
+    padding-right: 16px;
+    background-image: url(../img/footer-bg-desk.jpg);
   }
 }
