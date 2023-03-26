@@ -9,13 +9,13 @@
     display: none;
   }
 
-  .nav-menu {
+  .hero {
     position: relative;
   }
   .food-slider {
     position: absolute;
-    top: 90px;
-    right: 114px;
+    top: -144px;
+    right: 14px;
     width: 580px;
     height: 580px;
     border-radius: 50%;
